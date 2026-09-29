@@ -48,9 +48,9 @@ export default function Login() {
                 <div className="container">
                     <div className="main-page-title">
                         <div className="breadcrumbs">
-                            <a href="index.html" className="text-caption-01 cl-text-3 link">
+                            <Link href="/" className="text-caption-01 cl-text-3 link">
                                 Home
-                            </a>
+                            </Link>
                             <i className="icon icon-CaretRightThin cl-text-3"></i>
                             <p className="text-caption-01">Login</p>
                         </div>

@@ -1,0 +1,27 @@
+@use "sass:meta";
+@import "../icon/icomoon/style.css";
+
+// CSS
+@import "../css/bootstrap-select.min.css";
+@import "../css/bootstrap.min.css";
+@import "../css/swiper-bundle.min.css";
+@import "../css/animate.css";
+@include meta.load-css("app.scss");
+//Custom
+
+.form-msg {
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    &.msg-success {
+        color: #166534;
+        background: #DCFCE7;
+    }
+
+    &.msg-error {
+        color: #991B1B;
+        background: #FEE2E2;
+    }
+}

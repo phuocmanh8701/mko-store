@@ -116,9 +116,9 @@ const Footer = () => {
                         <div className="tf-list list-currenci">
                             <div className="tf-currencies">
                                 <select className="tf-dropdown-select style-default type-currencies">
-                                    <option selected data-thumbnail="/images/country/us.png">United States (USD $)
+                                    {/* <option selected data-thumbnail="/images/country/us.png">United States (USD $)
                                     </option>
-                                    <option data-thumbnail="/images/country/vn.png">Viet Nam (VND ₫)</option>
+                                    <option data-thumbnail="/images/country/vn.png">Viet Nam (VND ₫)</option> */}
                                 </select>
                             </div>
                             <div className="tf-languages">

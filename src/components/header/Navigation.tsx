@@ -204,10 +204,10 @@ const Navigation = () => {
 
                                         <ul className="sub-menu_list">
                                             <li>
-                                                <a href="shop-default.html"
+                                                <Link href="shop-default"
                                                     className="sub-menu_link has-text">
                                                     <span className="cus-text">Default</span>
-                                                </a>
+                                                </Link>
                                             </li>
 
                                             <li>

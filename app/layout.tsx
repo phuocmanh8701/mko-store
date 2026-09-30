@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "../public/scss/main.scss";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import Context from "@/contexts/Context";
 
 export const metadata: Metadata = {
   title: "MKO Store",
@@ -39,9 +40,12 @@ export default function RootLayout({
       </head>
       <body>
         <main id="wrapper">
-          <Header></Header>
-          {children}
-          <Footer></Footer>
+
+          <Context>
+            <Header></Header>
+            {children}
+            <Footer></Footer>
+          </Context>
         </main>
       </body>
     </html>
